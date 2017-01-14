@@ -1,0 +1,17 @@
+{
+  "name": "Eufolia",
+  "authors": [
+    "Hafiz Hanif <apitlekays@gmail.com>"
+  ],
+  "description": "Online Social E-Portfolio (Prototype)",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

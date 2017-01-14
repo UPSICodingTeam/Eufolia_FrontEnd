@@ -5,17 +5,95 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Eufolia | Online Social ePortfolio</title>
 		<link rel="stylesheet" href="bower_components/foundation-sites/dist/css/foundation.min.css" />
-		<link rel="stylesheet" href="assets/css/main.css"
-		<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
+		<link rel="stylesheet" href="main.css" />
+		
+		<!--- Adding FontAwesome Support --->
+		<script src="https://use.fontawesome.com/53836fc456.js"></script>
+		
+		<!--- Adding Google Font Support --->
+		<link href="https://fonts.googleapis.com/css?family=Jaldi|Teko:500,700" rel="stylesheet">
 		
 	</head>
 	<body>
-	
-	<h1>Test</h1>
+	<header>
+	    <!-- TOP BAR
+	    =================================================== -->
+	    <div class="hz-title small-12 columns">
+	    	<h1 class="text-center"><span class="hz-main-title">EUFOLIA</span></h1>
+	    </div>
+	    <!-- TOP BAR END -->
+	    <!-- MENU BAR
+	    =================================================== -->
+	    <div class="row hz-menu hz-white">
+	    	<div class="text-center medium-4 small-12 columns hz-green">
+		    	<div class="hz-menu-button">
+			    	<span class="fa-stack">
+					  <i class="fa fa-circle-thin fa-stack-2x fa-inverse"></i>
+					  <i class="fa fa-align-left fa-stack-1x fa-inverse"></i>
+					</span> <span class="hz-jaldi">Share a New Lesson Plan</span>
+		    	</div>
+	    	</div>
+	    	<div class="text-center medium-4 small-12 columns hz-red">
+		    	<div class="hz-menu-button">
+			    	<span class="fa-stack">
+					  <i class="fa fa-circle-thin fa-stack-2x fa-inverse"></i>
+					  <i class="fa fa-comments-o fa-stack-1x fa-inverse"></i>
+					</span> <span class="hz-jaldi">Share a New Experience</span>
+		    	</div>
+	       	</div>
+	    	<div class="text-center medium-4 small-12 columns hz-yellow">
+		    	<div class="hz-menu-button">
+			    	<span class="fa-stack">
+					  <i class="fa fa-circle-thin fa-stack-2x fa-inverse"></i>
+					  <i class="fa fa-wrench fa-stack-1x fa-inverse"></i>
+					</span> <span class="hz-jaldi">Share a New Resources</span>
+		    	</div>
+	       	</div>
+	    </div>
+	    <!-- MENU BAR END -->
+	</header>
+	<div class="row hz-white hz-reveal">
+		<div class="medium-3 small-12 columns hz-green-s hz-reveal-child text-center">
+			<img src="holder.js/200x200" class="hz-img-radius">
+			<h5>Shared Lesson Plans</h5>
+			<button class="button small radius">See Lesson Plans</button>
+		</div>
+		<div class="medium-6 show-for-medium small-12 columns hz-red-s hz-reveal-child">
+			<div class="row">
+				<div class="medium-5 small-12 columns">
+					<h5>Teaching & Learning Experiences</h5>
+					<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </p>
+					<button class="button radius">Read Stories</button>
+				</div>
+				<div class="medium-7 small-12 columns">
+					<img src="holder.js/280x280" class="hz-img-radius">
+				</div>
+			</div>
+		</div>
+		<!-- T&L Exp Conditional Code
+		=================================================== -->
+		<div class="medium-3 small-12 show-for-small-only columns hz-red-s hz-reveal-child text-center">
+			<img src="holder.js/200x200" class="hz-img-radius">
+			<h5>Teaching & Learning Experiences</h5>
+			<button class="button small radius">Read Stories</button>
+		</div>
+		<!-- T&L Exp Conditional Code END -->
+		<div class="medium-3 small-12 columns hz-yellow-s hz-reveal-child text-center">
+			<div class="row">
+				<div class="small-12 columns">
+					<img src="holder.js/200x200" class="hz-img-radius">
+				</div>
+			</div>
+			<h5>Useful Resources</h5>
+			<button class="button small radius">Use Resources</button>
+		</div>
+	</div>
+    
+    
 		
 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
 		<script src="bower_components/foundation-sites/dist/js/foundation.min.js"></script>
 		<script src="bower_components/holderjs/holder.min.js"></script>
-		<script src="assets/js/main.js"></script>
+		<script src="main.js"></script>
 	</body>
 </html>

@@ -14,6 +14,11 @@ h2, h3, h4, h5, h6 {
 p {
 	font-size: 0.75em;
 }
+
+small {
+	font-size: 0.5em;
+	color: grey;
+}
 /* ================= */
 
 
@@ -96,6 +101,7 @@ p {
 	position: relative;
 	width: 70%;
 	margin: 0 auto;
+	padding: 5px;
 }
 
 .hz-featured-stories {
@@ -105,6 +111,35 @@ p {
 .hz-featured-lp {
 	background-color: lightblue;
 }
+
+.hz-big-icon {
+	font-size: 90px;
+}
+
+.hz-icon-blue {
+	color: #009aff;
+}
+
+.hz-lp-card {
+	box-shadow: 0px 0px 0px rgba(131, 131, 131, 0.88);
+		-webkit-transition: all 0.3s ease; /* Safari */
+    transition: all 0.3s ease-in;
+}
+
+.hz-lp-card:hover {
+	box-shadow: 0px 0px 5px rgba(131, 131, 131, 0.88);
+	background-color: #e0f7ff;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.hz-card-link {
+	padding-right: 12px;
+	line-height: 5px;
+}
+
+
 /* ================= */
 
 

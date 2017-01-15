@@ -87,6 +87,20 @@ p {
 	border-radius: 180px;
 	border: 5px solid white;
 }
+
+.hz-img {
+	border: 5px solid white;
+}
+
+.hz-width-small {
+	position: relative;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.hz-featured-stories {
+	background-color: #f4f4f4;
+}
 /* ================= */
 
 
